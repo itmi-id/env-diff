@@ -1,0 +1,11 @@
+{
+  "name": "env-diff",
+  "version": "1.0.0",
+  "description": "A tool that used for comparing environment variable file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

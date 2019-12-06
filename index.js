@@ -50,7 +50,7 @@ inquirer.prompt(questions).then(answers => {
         chalk.yellow(`Variables that's different from ${mainEnvPath} and ${comparingEnvPath}:`),
         differentEnvironmentVariables.reduce((accumulator, currentValue) => {
             const main = chalk.green(`${currentValue.main} (${mainEnvPath})`);
-            const comparing = chalk.blue(`${currentValue.comparing} (${comparingEnvPath})`);
+            const comparing = chalk.magenta(`${currentValue.comparing} (${comparingEnvPath})`);
             return `${accumulator}\n${currentValue.key}\n${main}\n${comparing}\n`
         }, ''),
     );
